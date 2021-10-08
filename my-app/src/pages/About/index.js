@@ -1,9 +1,6 @@
 import React from 'react';
 import "./index.css";
-// import ChrisPic from '../../assets/about-creator-pics/ChrisPic.png';
-// import SuzannaPic from '../../assets/about-creator-pics/SuzannaPic.png';
-// import RachelPic from '../../assets/about-creator-pics/RachelPic.jpg';
-// import KimPic from '../../assets/about-creator-pics/KimPic.jpg';
+
 import { Link } from 'react-router-dom';
 
 
@@ -25,40 +22,39 @@ function About() {
               <div className="CreatorContainers">
                 <div className="CreatorRow">
                   <div className="CreatorContainer">
-                    <img clasName="CreatorPic" alt="creator-picture-suzanna"></img>
+                    <img clasName="CreatorPic" alt=""></img>
                     <div className="CreatorDescription">
-                      <div className="CreatorName">Suzanna Akins</div>
+                      <div className="CreatorName">Andrew Lopez</div>
                       <div className="CreatorBio">Full-Stack Web Developer</div>
-                      <a className="CreatorLinks" href="https://github.com/suzannaakins">Github</a>
+                     
                     </div>
                   </div>
 
                   <div className="CreatorContainer">
-                    <img clasName="CreatorPic" alt="creator-picture-rachel"></img>
+                    <img clasName="CreatorPic" alt=""></img>
                     <div className="CreatorDescription">
-                      <div className="CreatorName">Rachel Wagschal</div>
+                      <div className="CreatorName">Kiel Ashram</div>
                       <div className="CreatorBio">Full-Stack Web Developer</div>
-                      <a className="CreatorLinks" href="https://github.com/rawagschal">Github</a>
+                      
                     </div>
                   </div>
                 </div>
 
                 <div className="CreatorRow">
                   <div className="CreatorContainer">
-                    <img clasName="CreatorPic" alt="creator-picture-kim"></img>
+                    <img clasName="CreatorPic" alt=""></img>
                     <div className="CreatorDescription">
-                      <div className="CreatorName">Kim Mulligan</div>
+                      <div className="CreatorName">Jay Chen</div>
                       <div className="CreatorBio">Full-Stack Web Developer</div>
-                      <a className="CreatorLinks" href="https://github.com/Kimmulligan">Github</a>
+                      
                     </div>
                   </div>
 
                   <div className="CreatorContainer">
-                    <img clasName="CreatorPic" alt="creator-picture-suzanna"></img>
+                    <img clasName="CreatorPic" alt=""></img>
                     <div className="CreatorDescription">
-                      <div className="CreatorName">Chris Meissner</div>
-                      <div className="CreatorRole">Full-Stack Web Developer</div>
-                      <a className="CreatorLinks" href="https://github.com/ChrisMeissner">Github</a>
+                      <div className="CreatorName"></div>
+                      <div className="CreatorRole"></div>
                     </div>
                   </div>
                 </div>
